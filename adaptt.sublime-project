@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-project",
+				"*.sublime-workspace",
+				"*.ini",
+				"*.map",
+				".jscsrc",
+				".jshintrc",
+				".gitignore"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules"
+			],
+			"path": "."
+		},
+		{
+			"path": "/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme"
+		}
+	]
+}

@@ -1,0 +1,221 @@
+/* =================================================================================
+Styles that apply to all sections
+================================================================================= */
+
+section {
+	text-align: left;
+	margin-bottom: 150px;
+	font-size: 1.5rem;
+	h2 {
+		margin: 20px;
+		font-size: 3.5rem;
+		font-weight: 100;
+	}
+	&#hero {
+		figure {
+			margin: 0;
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	&#about {
+		background-color: $brand-light-green;
+		h2 {
+			font-weight: 100;
+			font-size: 4em;
+		}
+		.copy {
+			padding: 0 90px;
+		}
+	}
+	&#built {
+		.diamond-img-wrapper {
+			position: relative;
+			img {
+				width: 300px;
+			}
+			.healthcare-pic {
+				position: absolute;
+				top: 30px;
+				left: 0;
+				z-index: 1000;
+				-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+				clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			}
+			.commercial-pic {
+				position: absolute;
+				top: 200px;
+				left: 0;
+				z-index: 1001;
+			}
+			.residential-pic {
+				position: absolute;
+				top: 400px;
+				left: 0;
+				width: 300px;
+				z-index: 1002;
+			}
+			.education-pic {
+				position: absolute;
+				top: 440px;
+				left: 0;
+				z-index: 1003;
+			}
+			.copy {
+				color: $brand-primary-green;
+				bottom: 0;
+				left: 0;
+				position: absolute;
+				width: 50%;
+			}
+		}
+		svg {
+			height: 0;
+		}
+	}
+	&#technology {
+		background-color: black;
+		background-image: url('#{$imgpath}black-texture-spotlight.jpg');
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		.green-bar {
+			background-color: $brand-primary-green;
+			height: 75px;
+			position: relative;
+			box-shadow: 0 10px 20px 0 #000000;
+			.notch {
+				border-left: 35px solid transparent;
+				border-right: 35px solid transparent;
+				border-top: 35px solid $brand-primary-green;
+				left: 25.7%;
+				position: absolute;
+				top: 70px;
+				z-index: 1000;
+			}
+			h2 {
+				color: white;
+				text-transform: uppercase;
+				padding: 0 0 0 4.3em;
+			}
+		}
+		.copy {
+			color: white;
+			padding: 30px 90px 20px 30px;
+			text-align: left;
+			p {
+				padding-bottom: 25px;
+			}
+		}
+	}
+	&#contact {
+		margin-bottom: 0;
+		height: 400px;
+		.uk-container {
+			height: 100%;
+			.uk-grid {
+				//height: 100%;
+				position: relative;
+				.contact-img {
+					bottom: 0;
+					left: 0;
+					position: absolute;
+					width: 50%;
+					z-index: 1000;
+				}
+			}
+			.bg-brand-green {
+				position: relative;
+				height: 400px;
+				.tagline {
+					bottom: 0;
+					color: white;
+					font-size: 1.8em;
+					right: 0;
+					position: absolute;
+					text-align: right;
+				}
+			}
+		}
+	}
+}
+
+
+
+// 480 and smaller
+@media screen and (max-width: $breakpoint-xxsmall-max) {
+	section {
+		margin-bottom: 50px;
+		h2 {
+			margin: 5px;
+			font-size: 1.5rem;
+			font-weight: 100;
+		}
+		&#hero {
+			figcaption {
+				display: none;
+			}
+		}
+		&#about {
+			h2 {
+				font-size: 2em;
+			}
+			.copy {
+				padding: 0 3px;
+			}
+		}
+		&#built {
+			div[class*='-clip-wrapper'] {
+				display: none;
+			}
+		}
+		&#technology {
+			.green-bar {
+				height: 35px;
+				text-align: center;
+				h2 {
+					padding: 0;
+				}
+				.notch {
+					left: 40%;
+					top: 30px;
+				}
+			}
+			.copy {
+				padding: 10px;
+			}
+		}
+		&#contact {
+			.uk-container {
+				.bg-brand-green{
+					height: 300px;
+					.uk-padding {
+						padding: 10px 10px 0 10px;
+					}
+					.tagline {
+						bottom: 50px;
+					}
+				}
+			}
+		}
+		.centered-img {
+			min-height: 193px;
+		}
+	}
+} 
+
+// 640 and smaller
+@media screen and (max-width: $breakpoint-xsmall-max) {}
+
+// 960 and smaller
+@media screen and (max-width: $breakpoint-small-max) {
+	
+}
+
+// 1200 and smaller
+@media screen and (max-width: $breakpoint-medium-max) {}
+
+// 1600 and smaller
+@media screen and (max-width: $breakpoint-large-max) {}

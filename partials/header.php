@@ -1,4 +1,45 @@
 <header class="header">
+	<div class="uk-section uk-padding-remove-vertical">
+		<div class="uk-container">
+				<div class="header-logo"></div>
+				<a href="#nav_mobile" class="hamburger" uk-toggle>
+					<div class="nav-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>
+				<div class="offcanvas-nav">
+					<div class="nav-mobile" id="nav_mobile" uk-offcanvas="flip: true;">
+						<div class="uk-offcanvas-bar"><?php 
+						wp_nav_menu( array(
+							'theme_location' => 'header',
+							'container' => 'nav',
+							'container_class' => 'mainMenu-menu',
+							'menu' => 'Main Nav',
+							'menu_class' => 'mainMenu-mobile')); ?> 
+						</div>
+					</div>
+				</div>
+				<div class="nav"><?php 
+					wp_nav_menu( array(
+						'theme_location' => 'header',
+						'container' => 'nav',
+						'container_class' => 'mainMenu-menu',
+						'menu' => 'Main Nav',
+						'menu_class' => 'mainMenu-list uk-flex')); ?> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div uk-scrollspy="cls:uk-animation-fade;">  
+		<div class="uk-panel uk-panel-box scroller">
+			<a class="" uk-totop uk-scroll href="#">go to top</a>  
+		</div>  
+	</div>
+</header>
+<?php /*
 	<div class="header-container container">
 		<?php if( is_front_page() ) : ?>
 			<h1 class="header-logo">
@@ -25,4 +66,4 @@
 			)); ?>
 		</div>
 	</div>
-</header>
+*/ ?>

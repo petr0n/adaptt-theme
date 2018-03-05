@@ -4,14 +4,16 @@
 
 require('es5-shim');
 require('consolelog');
+require('uikit');
 
 var $               = require('jquery');
-// var carousel        = require('./carousel.js');
+var nav        		= require('./nav.js');
 // var responsive      = require('./responsive.js');
 // var SocialModule    = require('./social.js');
 // var AnalyticsModule = require('./analytics.js');
 // var social = new SocialModule({ fbAppId: '' });
 // var analytics = new AnalyticsModule({ gaid: '' });
+
 
 /**
  * Initialize the app on DOM ready
@@ -19,6 +21,6 @@ var $               = require('jquery');
 $(function() {
 	// analytics.init();
 	// social.init();
-	// carousel.init();
+	nav.init();
 	// responsive.init();
 });

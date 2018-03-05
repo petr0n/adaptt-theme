@@ -1,9 +1,9 @@
 module.exports = {
-    domain: 'http://local.wordpress.com',
-    paths: {
-        scripts: './scripts',
-        styles: './styles',
-        images: './images',
-        dist: './dist'
-    }
+	domain: 'http://local.adaptt.com:8888',
+	paths: {
+		scripts: './scripts',
+		styles: './styles',
+		images: './images',
+		dist: './dist'
+	}
 }

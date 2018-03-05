@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"uk-",
+				"uk-totop \tUIkit class"
+			],
+			[
 				"back",
 				"background"
 			],
@@ -447,6 +451,87 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2967,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/header.php",
+			"settings":
+			{
+				"buffer_size": 1392,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/try-theme-hooks.php",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/modules/header.scss",
+			"settings":
+			{
+				"buffer_size": 1214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 591,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/app.scss",
+			"settings":
+			{
+				"buffer_size": 641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/modules/modules.scss",
+			"settings":
+			{
+				"buffer_size": 603,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/modules/footer.scss",
+			"settings":
+			{
+				"buffer_size": 684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/variables.scss",
+			"settings":
+			{
+				"buffer_size": 1497,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -455,10 +540,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 119.0,
-		"last_filter": "Package Control: inst",
+		"height": 392.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: inst",
 				"Package Control: Install Package"
@@ -505,10 +594,33 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme"
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/dist",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/dist/scripts",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/dist/styles",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/includes",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/partials",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/scripts",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/scripts/vendor",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/modules",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/vendor"
 	],
 	"file_history":
 	[
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/functions.php",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/modules/search-form.less",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/modules/composition.less",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/app.scss",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/modules/footer.scss",
+		"/Users/peter.abeln/Desktop/Doran Notes - Feb 2.txt",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/fonts.scss",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/scripts/app.js",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/package.json",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/includes/try-enqueue.php",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/styles/global.scss",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/gulp/config.js",
+		"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme/adaptt.sublime-project",
 		"/Users/peter.abeln/Projects/WeberShandwickMinneapolis/creative-team/www/wp-content/themes/creative-team-theme2/styles/modules/tiles.scss",
 		"/Users/peter.abeln/Projects/WeberShandwickMinneapolis/creative-team/www/wp-content/themes/creative-team-theme2/style.css",
 		"/Users/peter.abeln/Projects/WeberShandwickMinneapolis/creative-team/www/wp-content/themes/creative-team-theme2/package.json",
@@ -623,30 +735,18 @@
 		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/partials/header.php",
 		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/styles/vendor/bootstrap/less/variables.less",
 		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/responsive.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/accordion.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/types/post-type-team-members.php",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/page-about.php",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/mobilenav.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/partials/blocks_side_by_side.php",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/ui.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/stickynav.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/gulp/tasks/styles.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/gulp/tasks/admin.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/gulp/tasks/watch.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/styles/admin/editor.less",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/scrollto.js",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/page-sections.php",
-		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/includes/try-theme-hooks.php"
+		"/Users/peter.abeln/Projects/Geosys/www/wp-content/themes/geosys-theme/scripts/accordion.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 101.0,
 		"where_history":
 		[
+			"/Users/peter.abeln/Documents/petron/adaptt/website/wp-content/themes/adaptt-theme"
 		]
 	},
 	"find_state":
@@ -654,6 +754,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"consolelog"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -671,8 +772,275 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "partials/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "includes/try-theme-hooks.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles/modules/header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Dark (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "styles/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Dark (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "styles/modules/modules.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								603
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Dark (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "styles/modules/footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								299
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Dark (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "styles/variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Dark (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],

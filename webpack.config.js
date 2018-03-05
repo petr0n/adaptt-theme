@@ -5,7 +5,8 @@ module.exports = {
     devtool : 'eval',
 
     entry: {
-        app: './scripts/app.js'
+        app: './scripts/app.js',
+        uikit: './scripts/vendor/uikit.js'
     },
 
     output: {

@@ -2,22 +2,233 @@
 Styles that apply to all modules
 ================================================================================= */
 
-.module {}
 
-// Small and larger
-@media screen and (min-width: @screen-sm-min) {}
+// override uikit overlay color
+.overlay-green {
+	background: rgba(108, 170, 76, 0.5);
+}
 
-// Medium and larger
-@media screen and (min-width: @screen-md-min) {}
+.centered-img {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	min-height: 320px;
+	&.cover {
+		background-size: cover;
+	}
+}
+.bg-lighter-green {
+	background-color: $brand-lighter-green;
+}
 
-// Large and larger
-@media screen and (min-width: @screen-lg-min) {}
+.bg-brand-green {
+	background-color: $brand-primary-green;
+	color: white;
+}
+.bg-gray {
+	background-color: $brand-gray;
+	&>* {
+		color: white;
+	}
+}
 
-// X-Small only
-@media screen and (max-width: @screen-xs-max) {}
+$small-box: 145px;
+$large-box: 300px;
+$starting-left: 200px;
+.diamond-img-wrapper {
+	position: relative;
+	height: 700px;
+	border: 1px solid green;
 
-// Small only
-@media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+	.healthcare-clip-wrapper {
+		position: absolute;
+		top: 0; 
+		left: $starting-left;
+		width: $large-box;
+		.tilted-txt {
+			left: -25px;
+			position: absolute;
+			top: 95px;
+			text-transform: uppercase;
+			transform: rotate(-45deg);
+		}
+		.img-clip-row {
+			position: absolute;
+			-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: url(#clip-diamond);
+			.img-clip-wrap {
+				background-size: 100%;
+				background-repeat: no-repeat;
+				height: 100%;
+				width: 100%;
+			}
+			&.one {
+				height: $large-box;
+				left: 0;
+				top: 0;
+				width: $large-box;
+				.img-clip-wrap {
+					background-position: top center;
+				}
+			}
+		}
+	}
+	.residential-clip-wrapper {
+		position: absolute;
+		top: calc(#{$large-box} + 10px);  
+		left: calc(#{$starting-left} + 5px);
+		width: $large-box;
+		.tilted-txt {
+			left: -28px;
+			position: absolute;
+			text-transform: uppercase;
+			top: 93px;
+			transform: rotate(-45deg);
+		}
+		.img-clip-row {
+			position: absolute;
+			-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: url(#clip-diamond);
+			.img-clip-wrap {
+				background-size: 250%;
+				background-repeat: no-repeat;
+				height: 100%;
+				width: 100%;
+			}
+			
+			&.one {
+				height: $small-box;
+				left: calc(#{$small-box} / 2);
+				top: 0;
+				width: $small-box;
+				.img-clip-wrap {
+					background-position: top center;
+				}
+			}
+			&.two {
+				height: $small-box;
+				left: calc(#{$small-box} + 5px);
+				top: calc((#{$small-box} / 2) + 5px);
+				width: $small-box;
+				.img-clip-wrap {
+					background-position: -44px -41px;
+				}
+			}
+			&.three {
+				height: $small-box;
+				left: - 5px;
+				top: calc((#{$small-box} / 2) + 5px);
+				width: $small-box;
+				.img-clip-wrap {
+					background-position: -16px -41px;
+				}
+			}
+		}
+	}
 
-// Medium only
-@media screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+	.commercial-clip-wrapper {
+		position: absolute;
+		top: calc((#{$large-box} / 2) + 5px);  
+		left: calc(#{$starting-left} + (#{$large-box} / 2) + 5px);
+		width: $large-box;
+		.tilted-txt {
+			left: 144px;
+			position: absolute;
+			top: 17px;
+			text-transform: uppercase;
+			transform: rotate(45deg);
+		}
+		.img-clip-row {
+			position: absolute;
+			-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: url(#clip-diamond);
+			.img-clip-wrap {
+				background-size: 100%;
+				background-repeat: no-repeat;
+				height: 100%;
+				width: 100%;
+			}
+			&.one {
+				height: $large-box;
+				left: 0;
+				top: 0;
+				width: $large-box;
+				.img-clip-wrap {
+					background-position: top center;
+				}
+			}
+		}
+	}
+	.education-clip-wrapper {
+		position: absolute;
+		// top: 220px; 
+		// left: 420px;
+		top: calc((#{$large-box} + 10px);  
+		left: calc(#{$starting-left} + #{$large-box} + 10px);
+		width: $large-box;
+		.tilted-txt {
+			left: 144px;
+			position: absolute;
+			top: 267px;
+			text-transform: uppercase;
+			transform: rotate(-45deg);
+		}
+		.img-clip-row {
+			position: absolute;
+			-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			clip-path: url(#clip-diamond);
+			.img-clip-wrap {
+				background-size: 100%;
+				background-repeat: no-repeat;
+				height: 100%;
+				width: 100%;
+			}
+			&.one {
+				height: $large-box;
+				left: 0;
+				top: 0;
+				width: $large-box;
+				.img-clip-wrap {
+					background-position: top center;
+				}
+			}
+		}
+	}
+}
+
+/* Scroller */  
+
+.scroller {  
+	position: fixed;  
+	vertical-align: bottom;  
+	bottom: 50px;  
+	right: 50px;  
+	z-index: 100;
+	background-color: $brand-light-green;
+}  
+a.scroller {  
+	color: white;
+	text-align: center;  
+	padding: 10px;  
+	top: auto;  
+	z-index: 101;  
+}
+
+// 480 and smaller
+@media screen and (min-width: $breakpoint-xxsmall-max) {} 
+
+// 640 and smaller
+@media screen and (min-width: $breakpoint-xsmall-max) {}
+
+// 960 and smaller
+@media screen and (min-width: $breakpoint-small-max) {}
+
+// 1200 and smaller
+@media screen and (min-width: $breakpoint-medium-max) {}
+
+// 1600 and smaller
+@media screen and (max-width: $breakpoint-large-max) {}

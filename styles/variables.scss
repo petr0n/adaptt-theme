@@ -15,6 +15,14 @@ $brand-info:            #5bc0de;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
 
+$brand-primary-green: 	#74bf44;
+$brand-light-green: 	#b5d88e;
+$brand-lighter-green: 	#e9f4dd;
+$brand-dark-green: 		#6caa43;
+$brand-black:			#231f20;
+$brand-gray: 			#888a8c;
+
+
 $color-facebook: #3B5998;
 $color-twitter: #33CCFF;
 $color-google: #000000;
@@ -22,11 +30,8 @@ $color-linkedin: #4875B4;
 $color-email: #ec0501;
 
 // Typography
-$font-family-sans-serif:       "Open Sans", sans-serif;
-$font-family-sans-serif-alt:   "Roboto", sans-serif;
-$font-family-serif:            "Roboto Slab", serif;
-$font-family-icon:             "";
-$font-family-monospace:        Monaco, Consolas, "Courier New", monospace;
+$font-family-sans-serif:       'Montserrat', sans-serif;
+$font-family-sans-serif-alt:   'Helvetica', sans-serif;
 $font-family-base:             $font-family-sans-serif;
 
 // Z-Index
@@ -39,3 +44,12 @@ $zindex-6: 1060;
 $zindex-7: 1070;
 $zindex-8: 1080;
 $zindex-9: 1090;
+
+
+// custom break point 
+$breakpoint-xsmall: 480px !default;  // Phone Portrait
+$breakpoint-xxsmall-max: ($breakpoint-xsmall - 1) !default;
+
+
+// imgpath 
+$imgpath: '/wp-content/themes/adaptt-theme/images/';

@@ -14,20 +14,19 @@ Search Form
 	.searchForm-submit { position: absolute; right: 0; top: 0; width: 100px; }
 }
 
-// Small and larger
-@media screen and (min-width: @screen-sm-min) {}
 
-// Medium and larger
-@media screen and (min-width: @screen-md-min) {}
 
-// Large and larger
-@media screen and (min-width: @screen-lg-min) {}
+// 480 and smaller
+@media screen and (min-width: $breakpoint-xxsmall-max) {} 
 
-// X-Small only
-@media screen and (max-width: @screen-xs-max) {}
+// 640 and smaller
+@media screen and (min-width: $breakpoint-xsmall-max) {}
 
-// Small only
-@media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+// 960 and smaller
+@media screen and (min-width: $breakpoint-small-max) {}
 
-// Medium only
-@media screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+// 1200 and smaller
+@media screen and (min-width: $breakpoint-medium-max) {}
+
+// 1600 and smaller
+@media screen and (max-width: $breakpoint-large-max) {}
